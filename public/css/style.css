@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #121212;
+    text-rendering: optimizeLegibility;
+    display: flex;
+    justify-content: center;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#screen {
+    margin-top: 2.4rem;
+    border: 1px solid #212121;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    width: 400px;
+    height: 400px;
+}
